@@ -1,0 +1,41 @@
+:root {
+  --primary-text-color: #212121;
+  --additional-text-color: #757575;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+}
+
+.page {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+}
+/* Nav section */
+.logo {
+  color: #000000;
+  text-decoration: none;
+}
+.logo-item {
+  color: var(--accent-color);
+}
+.list {
+  list-style: none;
+}
+.site-nav .link {
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+.address-nav .item {
+  color: var(--additional-text-color);
+  text-decoration: none;
+}
+.address-nav .item:hover,
+.address-nav .item:focus {
+  color: var(--accent-color);
+}

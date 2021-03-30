@@ -1,0 +1,10 @@
+/* Герой */
+button {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
+}
+/* Переваги */
+.section .title-empty {
+  display: none;
+}
