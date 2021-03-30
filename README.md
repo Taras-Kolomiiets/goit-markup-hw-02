@@ -1,2 +1,3 @@
-# Homework_1
-Taras-Kolomiiets_ДЗ 1
+# Homework_02
+
+goit-markup-hw-02
