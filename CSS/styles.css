@@ -31,6 +31,9 @@
 .site-nav .link.current {
   color: var(--accent-color);
 }
+.address-nav {
+  list-style: none;
+}
 .address-nav .item {
   color: var(--additional-text-color);
   text-decoration: none;
@@ -38,4 +41,14 @@
 .address-nav .item:hover,
 .address-nav .item:focus {
   color: var(--accent-color);
+}
+/* Герой */
+.main-button {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
+}
+/* Переваги */
+.section .title-empty {
+  display: none;
 }
