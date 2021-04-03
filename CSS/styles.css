@@ -3,52 +3,181 @@
   --additional-text-color: #757575;
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
+  --primary-black-color: #000000;
+  --contacts-color: rgba(255, 255, 255, 0.6);
+  --buttons-color: #f5f4fa;
 }
 
-.page {
+body {
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  font-size: 14px;
 }
 /* Nav section */
 .logo {
-  color: #000000;
+  color: var(--primary-black-color);
   text-decoration: none;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 }
 .logo-item {
   color: var(--accent-color);
 }
-.list {
+.site-nav-list {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   list-style: none;
 }
-.site-nav .link {
+.site-nav-list .link {
   color: var(--primary-text-color);
   text-decoration: none;
 }
-.site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav-list .link:hover,
+.site-nav-list .link:focus {
   color: var(--accent-color);
 }
-.site-nav .link.current {
+.site-nav-list .link.current {
   color: var(--accent-color);
 }
-.address-nav {
+.contacts-nav {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   list-style: none;
 }
-.address-nav .item {
+.contacts-nav .item {
   color: var(--additional-text-color);
+  font-style: normal;
   text-decoration: none;
+}
+.contacts-nav .item:hover,
+.contacts-nav .item:focus {
+  color: var(--accent-color);
+}
+/* Герой */
+.hero-title {
+  color: var(--primary-white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.main-button {
+  font-family: Roboto, sans-serif;
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+/* Переваги */
+.title-empty {
+  display: none;
+}
+.advantages-list {
+  list-style: none;
+}
+.advantages-list-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.advantages-list-text {
+  color: var(--additional-text-color);
+  line-height: 1.71;
+}
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+/* Чим займаємось */
+.works-list {
+  list-style: none;
+}
+/* Наша команда */
+.team-list {
+  list-style: none;
+}
+.team-member {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+.team-position {
+  color: var(--additional-text-color);
+  font-size: 16px;
+  line-height: 1.19;
+}
+/* Футер */
+.address-nav .item {
+  color: var(--contacts-color);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
 }
 .address-nav .item:hover,
 .address-nav .item:focus {
   color: var(--accent-color);
 }
-/* Герой */
-.main-button {
+.address-text {
+  color: var(--primary-white-color);
+  font-style: normal;
+  line-height: 1.71;
+}
+
+/* Сторінка Портфоліо */
+
+/* Фільтр послуг */
+.portfolio-title {
+  display: none;
+}
+.services-list {
+  list-style: none;
+}
+.service-button {
+  color: var(--primary-text-color);
+  background-color: var(--buttons-color);
+  border-color: var(--buttons-color);
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+}
+.service-button:hover,
+.service-button:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
-  border-color: var(--accent-color);
 }
-/* Переваги */
-.section .title-empty {
-  display: none;
+/* Список послуг */
+.portfolio-list {
+  list-style: none;
+}
+.portfolio-item-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.portfolio-item-text {
+  color: var(--additional-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
 }
