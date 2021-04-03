@@ -82,6 +82,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  cursor: pointer;
 }
 /* Переваги */
 .title-empty {
@@ -159,6 +160,7 @@ body {
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
+  cursor: pointer;
 }
 .service-button:hover,
 .service-button:focus {
